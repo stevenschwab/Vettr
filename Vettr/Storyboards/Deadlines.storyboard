@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="hrv-N4-6MQ">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Deadlines-->
+        <scene sceneID="au8-5u-cjK">
+            <objects>
+                <navigationController id="hrv-N4-6MQ" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Deadlines" image="bell" catalog="system" selectedImage="bell" id="uUv-Lo-3nm">
+                        <color key="badgeColor" name="Vettr Blue"/>
+                    </tabBarItem>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="R2O-KN-cdk">
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" name="Vettr Blue"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="eTf-c8-iLS" kind="relationship" relationship="rootViewController" id="tF1-3Y-bmE"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OQo-3T-3Ae" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2418" y="772"/>
+        </scene>
+        <!--Deadlines-->
+        <scene sceneID="YVi-0i-0F4">
+            <objects>
+                <viewController id="eTf-c8-iLS" customClass="DeadlinesVC" customModule="Vettr" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="tqP-AD-bun">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Coming soon!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oHR-do-1Xz">
+                                <rect key="frame" x="8" y="415.66666666666669" width="377" height="21"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="o9A-Oh-mXR"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" name="Vettr Blue"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="gbY-Xy-hr4"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="gbY-Xy-hr4" firstAttribute="trailing" secondItem="oHR-do-1Xz" secondAttribute="trailing" constant="8" id="ATe-Jr-EsR"/>
+                            <constraint firstItem="oHR-do-1Xz" firstAttribute="centerX" secondItem="tqP-AD-bun" secondAttribute="centerX" id="XGr-uT-WMg"/>
+                            <constraint firstItem="oHR-do-1Xz" firstAttribute="leading" secondItem="gbY-Xy-hr4" secondAttribute="leading" constant="8" id="ZZt-1q-IMi"/>
+                            <constraint firstItem="oHR-do-1Xz" firstAttribute="centerY" secondItem="tqP-AD-bun" secondAttribute="centerY" id="nlp-B0-fFy"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Deadlines" id="qwA-sp-X6Z"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="h2E-fl-QMM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3395" y="772"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="bell" catalog="system" width="125" height="128"/>
+        <namedColor name="Vettr Blue">
+            <color red="0.10196078431372549" green="0.24313725490196078" blue="0.32156862745098042" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

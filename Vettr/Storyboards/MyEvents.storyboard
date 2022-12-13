@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="UhA-7X-fs2">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--My Events-->
+        <scene sceneID="TDn-gj-G8y">
+            <objects>
+                <navigationController id="UhA-7X-fs2" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="My Events" image="calendar" catalog="system" selectedImage="calendar" id="nN4-eM-ZQ2">
+                        <color key="badgeColor" name="Vettr Blue"/>
+                    </tabBarItem>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="E9w-lJ-I6F">
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" name="Vettr Blue"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="1ym-Od-e7e" kind="relationship" relationship="rootViewController" id="Qnf-VJ-EzG"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xyO-vm-NNg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="656" y="957"/>
+        </scene>
+        <!--My Events-->
+        <scene sceneID="YrM-Y2-a9i">
+            <objects>
+                <viewController id="1ym-Od-e7e" customClass="MyEventsVC" customModule="Vettr" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="TIW-we-gI4">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Coming soon!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9pV-iO-5Ly">
+                                <rect key="frame" x="8" y="415.66666666666669" width="377" height="21"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="X0l-rt-Efi"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" name="Vettr Blue"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="E7f-Ir-HBl"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="9pV-iO-5Ly" firstAttribute="centerX" secondItem="TIW-we-gI4" secondAttribute="centerX" id="2UF-yr-4rf"/>
+                            <constraint firstItem="9pV-iO-5Ly" firstAttribute="centerY" secondItem="TIW-we-gI4" secondAttribute="centerY" id="9Bq-Zj-mSq"/>
+                            <constraint firstItem="9pV-iO-5Ly" firstAttribute="leading" secondItem="E7f-Ir-HBl" secondAttribute="leading" constant="8" id="Iwu-o3-KBF"/>
+                            <constraint firstItem="E7f-Ir-HBl" firstAttribute="trailing" secondItem="9pV-iO-5Ly" secondAttribute="trailing" constant="8" id="dzf-BM-yEx"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="My Events" id="BaP-vN-2Uv"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6qE-C5-PqV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1723" y="957"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="calendar" catalog="system" width="128" height="107"/>
+        <namedColor name="Vettr Blue">
+            <color red="0.10196078431372549" green="0.24313725490196078" blue="0.32156862745098042" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>
