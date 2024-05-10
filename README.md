@@ -13,18 +13,18 @@ Vettr aims to reduce the typical vetting headaches such as researching audience,
 
 With Vettr, you can save time, find new opportunities and make better decisions. Download Vettr today and elevate your public relations and communications strategy.
 
-![image](https://github.com/stevenschwab/Vettr/assets/40809198/3dd12a08-699e-4e79-a12a-f0ca9a0fba4b)<!-- width="300" -->
+<img src="https://github.com/stevenschwab/Vettr/assets/40809198/3dd12a08-699e-4e79-a12a-f0ca9a0fba4b" width="400"/>
 
-![image](https://github.com/stevenschwab/Vettr/assets/40809198/acafa8d4-fe36-4b9a-8f84-85c8be7250c9)
+<img src="https://github.com/stevenschwab/Vettr/assets/40809198/acafa8d4-fe36-4b9a-8f84-85c8be7250c9" width="400"/>
 
-![image](https://github.com/stevenschwab/Vettr/assets/40809198/a9124e69-ce48-4d5b-a3dd-f3fbf98a424a)
+<img src="https://github.com/stevenschwab/Vettr/assets/40809198/a9124e69-ce48-4d5b-a3dd-f3fbf98a424a" width="400"/>
 
-![image](https://github.com/stevenschwab/Vettr/assets/40809198/2b0f328f-1335-49a4-bdb5-d930f50f0949)
+<img src="https://github.com/stevenschwab/Vettr/assets/40809198/2b0f328f-1335-49a4-bdb5-d930f50f0949" width="400"/>
 
-![image](https://github.com/stevenschwab/Vettr/assets/40809198/48c73d22-f6f1-42da-bcf6-ed2ea51047e6)
+<img src="https://github.com/stevenschwab/Vettr/assets/40809198/48c73d22-f6f1-42da-bcf6-ed2ea51047e6" width="400"/>
 
-![image](https://github.com/stevenschwab/Vettr/assets/40809198/5d81af78-f274-4272-8eda-26c0661a9a22)
+<img src="https://github.com/stevenschwab/Vettr/assets/40809198/5d81af78-f274-4272-8eda-26c0661a9a22" width="400"/>
 
-![image](https://github.com/stevenschwab/Vettr/assets/40809198/4b00e4ca-b8fa-4ace-83bd-fa945dbb0871)
+<img src="https://github.com/stevenschwab/Vettr/assets/40809198/4b00e4ca-b8fa-4ace-83bd-fa945dbb0871" width="400"/>
 
-![image](https://github.com/stevenschwab/Vettr/assets/40809198/4c95edba-8c1a-4f51-b3a6-939180c18917)
+<img src="https://github.com/stevenschwab/Vettr/assets/40809198/4c95edba-8c1a-4f51-b3a6-939180c18917" width="400"/>
