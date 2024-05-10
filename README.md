@@ -13,7 +13,7 @@ Vettr aims to reduce the typical vetting headaches such as researching audience,
 
 With Vettr, you can save time, find new opportunities and make better decisions. Download Vettr today and elevate your public relations and communications strategy.
 
-![image](https://github.com/stevenschwab/Vettr/assets/40809198/3dd12a08-699e-4e79-a12a-f0ca9a0fba4b)
+![image](https://github.com/stevenschwab/Vettr/assets/40809198/3dd12a08-699e-4e79-a12a-f0ca9a0fba4b)<!-- width="300" -->
 
 ![image](https://github.com/stevenschwab/Vettr/assets/40809198/acafa8d4-fe36-4b9a-8f84-85c8be7250c9)
 
