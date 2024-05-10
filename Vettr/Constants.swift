@@ -14,7 +14,9 @@ struct K {
     }
     
     struct Supabase {
-        static let projectAPIkey = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImF3bXZsdnFzbndtanBwdnVkbnRuIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTY2NzkxNjM5OCwiZXhwIjoxOTgzNDkyMzk4fQ.ad14XdTKNYnOXqvq7eyv9-ogwMhpOSs8l9XkX4TKVM8"
-        static let projectURL = URL(string: "https://awmvlvqsnwmjppvudntn.supabase.co")!
+        private static let config = Bundle.main.path(forResource: "SupabaseConfig", ofType: "plist").flatMap { NSDictionary(contentsOfFile: $0) }
+        
+        static let projectAPIkey = config?["PROJECT_API_KEY"] as? String ?? ""
+        static let projectURL = URL(string: config?["PROJECT_URL"] as? String ?? "")!
     }
 }
