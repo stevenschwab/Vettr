@@ -32,6 +32,7 @@
 		61578D48291D66A500A0F1F4 /* Supabase in Frameworks */ = {isa = PBXBuildFile; productRef = 61578D47291D66A500A0F1F4 /* Supabase */; };
 		61578D4A291D728E00A0F1F4 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61578D49291D728E00A0F1F4 /* Event.swift */; };
 		61578D4C291D747800A0F1F4 /* Speakers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61578D4B291D747800A0F1F4 /* Speakers.swift */; };
+		616400632BEE8E7500D37D63 /* SupabaseConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = 616400622BEE8E7500D37D63 /* SupabaseConfig.plist */; };
 		6165DC092928386000008605 /* mediaImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6165DC082928386000008605 /* mediaImageCell.swift */; };
 		6165DC0B29283B7100008605 /* eventDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6165DC0A29283B7100008605 /* eventDetailViewModel.swift */; };
 		6165DC0D29283C4800008605 /* Media.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6165DC0C29283C4800008605 /* Media.swift */; };
@@ -128,6 +129,7 @@
 		61522B5C29269F6200E68F73 /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
 		61578D49291D728E00A0F1F4 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 		61578D4B291D747800A0F1F4 /* Speakers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Speakers.swift; sourceTree = "<group>"; };
+		616400622BEE8E7500D37D63 /* SupabaseConfig.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = SupabaseConfig.plist; sourceTree = "<group>"; };
 		6165DC082928386000008605 /* mediaImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mediaImageCell.swift; sourceTree = "<group>"; };
 		6165DC0A29283B7100008605 /* eventDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eventDetailViewModel.swift; sourceTree = "<group>"; };
 		6165DC0C29283C4800008605 /* Media.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Media.swift; sourceTree = "<group>"; };
@@ -233,6 +235,7 @@
 		61116196290DC4F3001A6DFA /* Vettr */ = {
 			isa = PBXGroup;
 			children = (
+				616400622BEE8E7500D37D63 /* SupabaseConfig.plist */,
 				61262A472946AF9400766BA9 /* Utilities */,
 				61262A4129469D4900766BA9 /* Managers */,
 				618B2573294825640057F40D /* Model */,
@@ -584,6 +587,7 @@
 				61D69641292431FF00CE8E98 /* Search.storyboard in Resources */,
 				61861DB12919D1A3009EA3B4 /* ReviewForm.storyboard in Resources */,
 				61861DB42919D1F0009EA3B4 /* EventDetail.storyboard in Resources */,
+				616400632BEE8E7500D37D63 /* SupabaseConfig.plist in Resources */,
 				61D6963F29242E7300CE8E98 /* Profile.storyboard in Resources */,
 				61FBC6E02942720E00AD2A92 /* MyEvents.storyboard in Resources */,
 				6111619F290DC4F3001A6DFA /* Main.storyboard in Resources */,
